@@ -1,14 +1,14 @@
-/* General container styling */
+
 .add-task-form {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Form title */
+
   .add-task-form h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -16,7 +16,7 @@
     color: #333;
   }
   
-  /* Input and textarea styling */
+  
   .add-task-form input,
   .add-task-form textarea,
   .add-task-form select {
