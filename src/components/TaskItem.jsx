@@ -56,8 +56,10 @@ const TaskItem = ({ task }) => {
           <p>{task.description}</p>
           <p>Due: {task.dueDate}</p>
           <p>Status: {task.status}</p>
+          <div>
           <button onClick={() => setIsEditing(true)}>Edit</button>
           <button onClick={() => deleteTask(task.id)}>Delete</button>
+          </div>
         </>
       )}
     </div>

@@ -3,6 +3,9 @@
   width: 100%;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -36,9 +39,9 @@
   
   /* Submit button styling */
   .add-task-form button {
-    width: 100%;
+    width: 210px;
     padding: 10px 15px;
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: white;
     background-color: #007bff;
     border: none;
